@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+}
+#logo {
+  width: 80px;
+  height: auto;
+  margin: 10px;
+}
+
+.figureLogo {
+  border-radius: 0px 0px 30px 30px;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  font-size: large;
+  padding: 10px 20px;
+  background-color: #198754;
+  color: white;
+  border-radius: 1rem;
+}
+
+li a:hover {
+  background-color: white;
+  color: #198754;
+}
+
+li a:active {
+  position: relative;
+  top: 2px;
+}
+
+.borderTop {
+  border-top: 10px solid #198754;
+}
+nav h1 {
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-family: "Pacifico", cursive;
+}
+.banner {
+  background-image: url("image/banner.jpg");
+  background-size: cover;
+  padding-top: 30%;
+  position: relative;
+  border: 5px solid rgb(243, 243, 243);
+}
+
+#banner {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  border: 1px solid forestgreen;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(76, 175, 80, 0.3);
+}
+.banner h2,
+.banner p {
+  color: antiquewhite;
+  font-family: "Pacifico", cursive;
+}
+
+.khungAnh {
+  margin: 20px 15px 0px 15px;
+  border-radius: 5px;
+  border: 1px grey solid;
+  background-color: white;
+  padding: 10px;
+}
+.khungAnh img {
+  width: 100%;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+
+.mainBottom {
+  padding-bottom: 20px;
+}
+
+.textCenter {
+  position: relative;
+}
+.textCenter h3 {
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  width: 80%;
+  color: white;
+  padding: 5px 0px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+h3 a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+h3 a:active {
+  top: 2px;
+}
+h3 a:hover {
+  color: aliceblue;
+}
+footer {
+  padding: 10px 10px 50px 10px;
+  color: white;
+}
+
+.contentFooter {
+  padding-left: 15px;
+}
+
+.ImgFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.picture {
+  width: 50px;
+  height: auto;
+}
+
+.container {
+  border-left: 10px solid #198754;
+  border-right: 10px solid #198754;
+}
