@@ -19,11 +19,14 @@
 ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
   align-items: center;
 }
 
+li {
+  display: inline-block;
+}
 li a {
   text-decoration: none;
   font-family: "Pacifico", cursive;
@@ -73,6 +76,15 @@ nav h1 {
   border-radius: 5px;
   background-color: rgba(76, 175, 80, 0.3);
 }
+
+#bannerHN {
+  width: 100%;
+  height: auto;
+}
+
+.classBanner {
+  padding: 10px 30px;
+}
 .banner h2,
 .banner p {
   color: antiquewhite;
@@ -92,6 +104,21 @@ nav h1 {
   /* border: 1px solid black; */
 }
 
+.indentText {
+  text-indent: 30px;
+  text-justify: inter-word;
+  text-align: justify;
+}
+
+article h4 {
+  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+
+.imgArt {
+  width: 100%;
+}
 .mainBottom {
   padding-bottom: 20px;
 }
